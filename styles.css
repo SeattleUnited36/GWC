@@ -1,23 +1,60 @@
 h1 {
-  color: #745eed;
-  font-size: 60px;
-  text-align: center;
+  color: blue;
+}
+h2{
+  color: white;
+  size: 40px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+  
+    
+}
+li a { 
+  display: block;
   
 }
-p {
-  color: black;
-  font-size: 40px;
-  text-align: center;
+li a:hover {
+    background-color: #555;
+    color: white;
+} 
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color:  #404040;
+    clear: left;
+    text-align: center;
 }
-h2 {
-  color: darkblue;
-  font-size: 30px;
+
+nav {
+    float: left;
+    max-width: 210px;
+    margin: 0;
+    padding: 1em;
+    
 }
-h3{
-  color: darkblue;
-  font-size: 30px;
+
+article {
+    margin-left: 1px;
+    margin-right: 1px;
+    border-left: 1px solid gray;
+    border-right:1px solid gray;
+    width: 600px;
+    padding: 1em;
+    overflow: hidden;
+ 
 }
-body {
-  background-color: #e6f7ff;
+picture {
+  float: right;
+  width: 425px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-left: 1px solid gray;
+  border-right:1px solid gray;
+  padding: 1em;
 
 }
