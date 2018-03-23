@@ -1,13 +1,14 @@
 h1 {
   color: #000099;
+  size: 45px;
 }
 h2{
   color: white;
-  size: 40px;
+  size: 50px;
 }
 p{
   color: black;
-  size: 30px;
+  size: 35px;
 }
 ul {
   list-style-type: none;
